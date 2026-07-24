@@ -72,21 +72,6 @@ Ví dụ đoạn cấu hình ánh xạ MITRE ATT&CK trong `local_rules.xml`:
 
 ---
 
-##  Cấu trúc Repository (Repo Structure)
-
-```text
-.
-├── rules/                     # Tập hợp các bộ quy tắc phát hiện & cấu hình
-│   ├── local_rules.xml        # Cấu hình Wazuh Custom Rules + MITRE Tags
-│   └── sysmonconfig.xml       # File cấu hình cảm biến Sysmon tối ưu cho Wazuh
-├── docs/                      # Báo cáo, tài liệu hướng dẫn & hình ảnh minh họa
-│   ├── Threat_Hunting_Report.pdf
-│   └── mitre_dashboard_demo.png
-└── README.md                  # Document hướng dẫn dự án
-```
-
----
-
 ##  Hướng dẫn Triển khai (Deployment)
 
 1. **Cấu hình Sysmon:** Cài đặt Sysmon trên máy giám sát sử dụng file cấu hình `rules/sysmonconfig.xml`.
