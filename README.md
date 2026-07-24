@@ -71,18 +71,3 @@ Ví dụ đoạn cấu hình ánh xạ MITRE ATT&CK trong `local_rules.xml`:
 ```
 
 ---
-
-##  Hướng dẫn Triển khai (Deployment)
-
-1. **Cấu hình Sysmon:** Cài đặt Sysmon trên máy giám sát sử dụng file cấu hình `rules/sysmonconfig.xml`.
-2. **Import Custom Rules:** Trích xuất file `rules/local_rules.xml` và dán vào thư mục quy tắc của Wazuh Manager:
-   ```bash
-   /var/ossec/etc/rules/local_rules.xml
-   ```
-3. **Restart Wazuh Manager:**
-   ```bash
-   sudo systemctl restart wazuh-manager
-   ```
-4. **Kiểm tra Dashboard:** Truy cập giao diện Wazuh Dashboard -> Mục **MITRE ATT&CK** để theo dõi các sự kiện được phân loại theo Tactic và Technique realtime.
-
----
