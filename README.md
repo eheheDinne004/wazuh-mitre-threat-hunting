@@ -71,3 +71,11 @@ Ví dụ đoạn cấu hình ánh xạ MITRE ATT&CK trong `local_rules.xml`:
 ```
 
 ---
+
+### 🎥 Video Demo Hệ Thống
+
+<div align="center">
+  <a href="https://youtu.be/K-Hdi1I-8L4" target="_blank">
+    <img src="https://img.youtube.com/vi/K-Hdi1I-8L4/maxresdefault.jpg" alt="Video Demo Hệ Thống" width="800">
+  </a>
+</div>
